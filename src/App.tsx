@@ -6,11 +6,11 @@ import {
   useLocation,
 } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LanguageSelector from './components/LanguageSelector';
 import Home from './pages/Home';
-import Academy from './pages/Academy';
 import Courses from './pages/Courses';
 import Community from './pages/Community';
 import Dashboard from './pages/Dashboard';
@@ -24,7 +24,6 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/academy" element={<Academy />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:courseId" element={<CourseDetail />} />
         <Route path="/community" element={<Community />} />
@@ -37,15 +36,17 @@ const AnimatedRoutes = () => {
 };
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-background text-text">
-        <LanguageSelector />
+      <div className="min-h-screen flex flex-col bg-background text-text relative">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <AnimatedRoutes />
         </main>
         <Footer />
+        <LanguageSelector />
       </div>
     </Router>
   );

@@ -7,6 +7,14 @@
     "blog": "Blog",
     "bookConsultation": "Book Consultation"
   },
+  "languageSelector": {
+    "en": "EN",
+    "fr": "FR",
+    "ar": "عربي",
+    "switchToEN": "Switch to English",
+    "switchToFR": "Switch to French",
+    "switchToAR": "Switch to Arabic"
+  },
   "home": {
     "title": "Your Gateway to Digital Success",
     "subtitle": "Master digital skills for entrepreneurship with our expert-led courses",
@@ -25,15 +33,15 @@
   },
   "academy": {
     "title": "NOOD Academy",
-    "subtitle": "Unlock your potential! Master digital skills for entrepreneurship with our expert-led courses.",
+    "subtitle": "Unleash Your Potential! Master digital skills for entrepreneurship with our expert-led courses.",
     "expertLedCourses": "Expert-Led Courses",
     "expertLedCoursesDescription": "Learn from industry professionals and gain practical skills for the digital world.",
     "communityLearning": "Community Learning",
-    "communityLearningDescription": "Connect with peers, share insights, and grow together in our vibrant learning community.",
-    "certifications": "Industry Certifications",
+    "communityLearningDescription": "Connect with peers, share ideas, and grow together in our vibrant learning community.",
+    "certifications": "Industry-Recognized Certifications",
     "certificationsDescription": "Earn recognized certifications to boost your credibility and career prospects.",
     "exploreCourses": "Explore Courses",
-    "joinCommunity": "Join Community",
+    "joinCommunity": "Join the Community",
     "viewCertifications": "View Certifications",
     "readyToStart": "Ready to Start Your Learning Journey?",
     "readyToStartDescription": "Take the first step towards mastering digital skills and achieving your goals.",
@@ -41,13 +49,13 @@
   },
   "courses": {
     "title": "Explore Our Courses",
-    "searchPlaceholder": "Search courses...",
+    "searchPlaceholder": "Search for courses...",
     "allCategories": "All Categories",
     "sortByPopularity": "Sort by Popularity",
     "sortByPriceLowHigh": "Price: Low to High",
     "sortByPriceHighLow": "Price: High to Low",
     "sortByDuration": "Sort by Duration",
-    "weeks": "weeks",
+    "weeks": "Weeks",
     "viewDetails": "View Details"
   },
   "footer": {
@@ -57,17 +65,17 @@
     "rights": "© 2023 NOOD. All rights reserved."
   },
   "courseDetail": {
-    "courseDescription": "Course Description",
-    "courseDetails": "Course Details",
-    "courseType": "Course Type",
+    "description": "Course Description",
+    "details": "Course Details",
+    "type": "Course Type",
     "domain": "Domain",
     "startDate": "Start Date",
     "duration": "Duration",
-    "weeks": "weeks",
+    "weeks": "Weeks",
     "price": "Price",
-    "courseObjectives": "Course Objectives",
-    "courseObjectivesDescription": "By the end of this course, you will be able to...",
+    "objectives": "Course Objectives",
+    "objectivesDescription": "By the end of this course, you will be able to...",
     "applyNow": "Apply Now",
-    "courseNotFound": "Course not found"
+    "notFound": "Course not found"
   }
 }

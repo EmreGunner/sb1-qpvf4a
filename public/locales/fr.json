@@ -1,0 +1,59 @@
+{
+  "header": {
+    "courses": "Cours",
+    "community": "Communauté",
+    "dashboard": "Tableau de bord",
+    "blog": "Blog",
+    "bookConsultation": "Réserver une consultation"
+  },
+  "languageSelector": {
+    "en": "EN",
+    "fr": "FR",
+    "ar": "عربي",
+    "switchToEN": "Passer à l'anglais",
+    "switchToFR": "Passer au français",
+    "switchToAR": "Passer à l'arabe"
+  },
+  "home": {
+    "title": "Votre passerelle vers le succès numérique",
+    "subtitle": "Maîtrisez les compétences numériques pour l'entrepreneuriat avec nos cours dirigés par des experts",
+    "explorePrograms": "Explorez nos programmes",
+    "offerings": "Nos offres",
+    "noodCommunity": "Communauté NOOD",
+    "communityDescription": "Rejoignez notre communauté florissante basée sur Telegram. Connectez-vous, apprenez et grandissez avec des personnes partageant les mêmes idées.",
+    "learnMore": "En savoir plus",
+    "joinNow": "Rejoindre maintenant",
+    "successStories": "Histoires de réussite",
+    "readyToStart": "Prêt à commencer votre voyage ?",
+    "readyDescription": "Que vous cherchiez à acquérir de nouvelles compétences, à développer votre entreprise ou à rejoindre une communauté de personnes partageant les mêmes idées, Nood a quelque chose pour vous.",
+    "bookFreeConsultation": "Réserver une consultation gratuite"
+  },
+  "courses": {
+    "title": "Explorez nos cours",
+    "searchPlaceholder": "Rechercher des cours...",
+    "allCategories": "Toutes les catégories",
+    "sortByPopularity": "Trier par popularité",
+    "sortByPriceLowHigh": "Prix : Croissant",
+    "sortByPriceHighLow": "Prix : Décroissant",
+    "sortByDuration": "Trier par durée",
+    "weeks": "semaines",
+    "viewDetails": "Voir les détails"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "contactUs": "Contactez-nous",
+    "followUs": "Suivez-nous",
+    "rights": "© 2023 NOOD. Tous droits réservés."
+  },
+  "courseDetail": {
+    "description": "Description du cours",
+    "details": "Détails du cours",
+    "type": "Type de cours",
+    "domain": "Domaine",
+    "startDate": "Date de début",
+    "duration": "Durée",
+    "price": "Prix",
+    "objectives": "Objectifs du cours",
+    "applyNow": "Postuler maintenant"
+  }
+}

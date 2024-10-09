@@ -27,9 +27,9 @@ const Academy: React.FC = () => {
           whileHover={{ scale: 1.05 }}
         >
           <BookOpen className="text-primary mb-4" size={48} />
-          <h2 className="text-2xl font-bold mb-4">{t('expertLedCourses')}</h2>
+          <h2 className="text-2xl font-bold mb-4">{t('courses')}</h2>
           <p className="text-text mb-4">
-            {t('expertLedCoursesDescription')}
+            {t('coursesDescription')}
           </p>
           <Link to="/courses" className="btn-primary inline-flex items-center">
             {t('exploreCourses')} <ArrowRight className="ml-2" size={20} />

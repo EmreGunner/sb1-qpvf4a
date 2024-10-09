@@ -1,0 +1,59 @@
+{
+  "header": {
+    "courses": "الدورات",
+    "community": "المجتمع",
+    "dashboard": "لوحة التحكم",
+    "blog": "المدونة",
+    "bookConsultation": "حجز استشارة"
+  },
+  "languageSelector": {
+    "en": "EN",
+    "fr": "FR",
+    "ar": "عربي",
+    "switchToEN": "التبديل إلى الإنجليزية",
+    "switchToFR": "التبديل إلى الفرنسية",
+    "switchToAR": "التبديل إلى العربية"
+  },
+  "home": {
+    "title": "بوابتك نحو النجاح الرقمي",
+    "subtitle": "أتقن المهارات الرقمية لريادة الأعمال مع دوراتنا التي يقودها الخبراء",
+    "explorePrograms": "استكشف برامجنا",
+    "offerings": "عروضنا",
+    "noodCommunity": "مجتمع NOOD",
+    "communityDescription": "انضم إلى مجتمعنا المزدهر على تيليجرام. تواصل وتعلم وانمو مع أشخاص يشاركونك نفس الأفكار.",
+    "learnMore": "اعرف المزيد",
+    "joinNow": "انضم الآن",
+    "successStories": "قصص النجاح",
+    "readyToStart": "هل أنت مستعد لبدء رحلتك؟",
+    "readyDescription": "سواء كنت تبحث عن تعلم مهارات جديدة، أو تنمية عملك، أو الانضمام إلى مجتمع من الأشخاص ذوي التفكير المماثل، فإن Nood لديها شيء لك.",
+    "bookFreeConsultation": "احجز استشارة مجانية"
+  },
+  "courses": {
+    "title": "استكشف دوراتنا",
+    "searchPlaceholder": "ابحث عن الدورات...",
+    "allCategories": "جميع الفئات",
+    "sortByPopularity": "الترتيب حسب الشعبية",
+    "sortByPriceLowHigh": "السعر: من الأقل إلى الأعلى",
+    "sortByPriceHighLow": "السعر: من الأعلى إلى الأقل",
+    "sortByDuration": "الترتيب حسب المدة",
+    "weeks": "أسابيع",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "contactUs": "اتصل بنا",
+    "followUs": "تابعنا",
+    "rights": "© 2023 NOOD. جميع الحقوق محفوظة."
+  },
+  "courseDetail": {
+    "description": "وصف الدورة",
+    "details": "تفاصيل الدورة",
+    "type": "نوع الدورة",
+    "domain": "المجال",
+    "startDate": "تاريخ البدء",
+    "duration": "المدة",
+    "price": "السعر",
+    "objectives": "أهداف الدورة",
+    "applyNow": "تقدم الآن"
+  }
+}

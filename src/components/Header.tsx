@@ -8,7 +8,6 @@ const Header: React.FC = () => {
   const { t } = useTranslation()
 
   const navItems = [
-    { to: "/academy", icon: BookOpen, text: t('header.academy') },
     { to: "/courses", icon: BookOpen, text: t('header.courses') },
     { to: "/community", icon: Users, text: t('header.community') },
     { to: "/dashboard", icon: User, text: t('header.dashboard') },
