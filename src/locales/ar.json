@@ -1,0 +1,73 @@
+{
+  "header": {
+    "academy": "الأكاديمية",
+    "courses": "الدورات",
+    "community": "المجتمع",
+    "dashboard": "لوحة التحكم",
+    "blog": "المدونة",
+    "bookConsultation": "حجز استشارة"
+  },
+  "home": {
+    "title": "بوابتك نحو النجاح الرقمي",
+    "subtitle": "أتقن المهارات الرقمية لريادة الأعمال مع دوراتنا التي يقودها الخبراء",
+    "explorePrograms": "استكشف برامجنا",
+    "offerings": "عروضنا",
+    "noodAcademy": "أكاديمية NOOD",
+    "noodCommunity": "مجتمع NOOD",
+    "academyDescription": "أتقن المهارات الرقمية لريادة الأعمال. دورات في التصميم الجرافيكي، التجارة الإلكترونية، تعلم اللغات والفنون الإبداعية.",
+    "communityDescription": "انضم إلى مجتمعنا المزدهر على تيليجرام. تواصل وتعلم وانمو مع أشخاص يشاركونك نفس الأفكار.",
+    "learnMore": "اعرف المزيد",
+    "joinNow": "انضم الآن",
+    "successStories": "قصص النجاح",
+    "readyToStart": "هل أنت مستعد لبدء رحلتك؟",
+    "readyDescription": "سواء كنت تبحث عن تعلم مهارات جديدة، أو تنمية عملك، أو الانضمام إلى مجتمع من الأشخاص ذوي التفكير المماثل، فإن Nood لديها شيء لك.",
+    "bookFreeConsultation": "احجز استشارة مجانية"
+  },
+  "academy": {
+    "title": "أكاديمية NOOD",
+    "subtitle": "أطلق العنان لإمكاناتك! أتقن المهارات الرقمية لريادة الأعمال مع دوراتنا التي يقودها الخبراء.",
+    "expertLedCourses": "دورات يقودها الخبراء",
+    "expertLedCoursesDescription": "تعلم من المحترفين في الصناعة واكتسب مهارات عملية للعالم الرقمي.",
+    "communityLearning": "التعلم المجتمعي",
+    "communityLearningDescription": "تواصل مع الأقران، شارك الأفكار، وانمو معًا في مجتمع التعلم النابض بالحياة لدينا.",
+    "certifications": "شهادات معتمدة في الصناعة",
+    "certificationsDescription": "احصل على شهادات معترف بها لتعزيز مصداقيتك وآفاق حياتك المهنية.",
+    "exploreCourses": "استكشف الدورات",
+    "joinCommunity": "انضم إلى المجتمع",
+    "viewCertifications": "عرض الشهادات",
+    "readyToStart": "هل أنت مستعد لبدء رحلة التعلم الخاصة بك؟",
+    "readyToStartDescription": "اتخذ الخطوة الأولى نحو إتقان المهارات الرقمية وتحقيق أهدافك.",
+    "bookFreeConsultation": "احجز استشارة مجانية"
+  },
+  "courses": {
+    "title": "استكشف دوراتنا",
+    "searchPlaceholder": "ابحث عن الدورات...",
+    "allCategories": "جميع الفئات",
+    "sortByPopularity": "الترتيب حسب الشعبية",
+    "sortByPriceLowHigh": "السعر: من الأقل إلى الأعلى",
+    "sortByPriceHighLow": "السعر: من الأعلى إلى الأقل",
+    "sortByDuration": "الترتيب حسب المدة",
+    "weeks": "أسابيع",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "contactUs": "اتصل بنا",
+    "followUs": "تابعنا",
+    "rights": "© 2023 NOOD. جميع الحقوق محفوظة."
+  },
+  "courseDetail": {
+    "courseDescription": "وصف الدورة",
+    "courseDetails": "تفاصيل الدورة",
+    "courseType": "نوع الدورة",
+    "domain": "المجال",
+    "startDate": "تاريخ البدء",
+    "duration": "المدة",
+    "weeks": "أسابيع",
+    "price": "السعر",
+    "courseObjectives": "أهداف الدورة",
+    "courseObjectivesDescription": "بنهاية هذه الدورة، ستكون قادرًا على...",
+    "applyNow": "تقدم الآن",
+    "courseNotFound": "الدورة غير موجودة"
+  }
+}

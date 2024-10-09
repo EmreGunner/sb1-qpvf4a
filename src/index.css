@@ -1,0 +1,142 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --primary-color: #84bb75;
+  --secondary-color: #5d8a54;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #f0f7ed;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-height: 100vh;
+}
+
+/* RTL support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-secondary transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-primary border-2 border-primary px-6 py-3 rounded-full font-semibold hover:bg-accent hover:border-secondary hover:text-secondary transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  }
+
+  .card {
+    @apply bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 border border-accent;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold mb-6 text-text;
+  }
+
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+}
+
+/* Nood-specific styles */
+.nood-gradient-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary;
+}
+
+.nood-card {
+  @apply card p-6;
+}
+
+.nood-input {
+  @apply bg-white border border-accent rounded-lg px-4 py-2 text-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
+
+.nood-select {
+  @apply bg-white border border-accent rounded-lg px-4 py-2 text-text focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
+
+/* Accessibility */
+.focus-visible {
+  @apply outline-none ring-2 ring-primary;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Transition between sections */
+.section-transition {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section-transition:not(.in-view) {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.section-transition.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Improved typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold leading-tight;
+}
+
+h1 { @apply text-4xl mb-4; }
+h2 { @apply text-3xl mb-3; }
+h3 { @apply text-2xl mb-2; }
+h4 { @apply text-xl mb-2; }
+h5 { @apply text-lg mb-1; }
+h6 { @apply text-base mb-1; }
+
+p { @apply mb-4 leading-relaxed; }
+
+/* Improved accessibility */
+.sr-only {
+  @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+}
+
+/* Improved hover effects */
+.hover-effect {
+  @apply transition duration-300 ease-in-out;
+}
+
+.hover-effect:hover {
+  @apply transform scale-105;
+}
+
+/* Improved responsiveness */
+@media (max-width: 640px) {
+  h1 { @apply text-3xl; }
+  h2 { @apply text-2xl; }
+  h3 { @apply text-xl; }
+}

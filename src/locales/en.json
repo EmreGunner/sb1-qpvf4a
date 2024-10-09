@@ -1,0 +1,73 @@
+{
+  "header": {
+    "academy": "Academy",
+    "courses": "Courses",
+    "community": "Community",
+    "dashboard": "Dashboard",
+    "blog": "Blog",
+    "bookConsultation": "Book Consultation"
+  },
+  "home": {
+    "title": "Your Gateway to Digital Success",
+    "subtitle": "Master digital skills for entrepreneurship with our expert-led courses",
+    "explorePrograms": "Explore Our Programs",
+    "offerings": "Our Offerings",
+    "noodAcademy": "NOOD Academy",
+    "noodCommunity": "NOOD Community",
+    "academyDescription": "Master digital skills for entrepreneurship. Courses in Graphic Design, E-commerce, Language Learning, and Creative Arts.",
+    "communityDescription": "Join our thriving Telegram-based community. Connect, learn, and grow with like-minded individuals.",
+    "learnMore": "Learn More",
+    "joinNow": "Join Now",
+    "successStories": "Success Stories",
+    "readyToStart": "Ready to Start Your Journey?",
+    "readyDescription": "Whether you're looking to learn new skills, grow your business, or join a community of like-minded individuals, Nood has something for you.",
+    "bookFreeConsultation": "Book a Free Consultation"
+  },
+  "academy": {
+    "title": "NOOD Academy",
+    "subtitle": "Unlock your potential! Master digital skills for entrepreneurship with our expert-led courses.",
+    "expertLedCourses": "Expert-Led Courses",
+    "expertLedCoursesDescription": "Learn from industry professionals and gain practical skills for the digital world.",
+    "communityLearning": "Community Learning",
+    "communityLearningDescription": "Connect with peers, share insights, and grow together in our vibrant learning community.",
+    "certifications": "Industry Certifications",
+    "certificationsDescription": "Earn recognized certifications to boost your credibility and career prospects.",
+    "exploreCourses": "Explore Courses",
+    "joinCommunity": "Join Community",
+    "viewCertifications": "View Certifications",
+    "readyToStart": "Ready to Start Your Learning Journey?",
+    "readyToStartDescription": "Take the first step towards mastering digital skills and achieving your goals.",
+    "bookFreeConsultation": "Book a Free Consultation"
+  },
+  "courses": {
+    "title": "Explore Our Courses",
+    "searchPlaceholder": "Search courses...",
+    "allCategories": "All Categories",
+    "sortByPopularity": "Sort by Popularity",
+    "sortByPriceLowHigh": "Price: Low to High",
+    "sortByPriceHighLow": "Price: High to Low",
+    "sortByDuration": "Sort by Duration",
+    "weeks": "weeks",
+    "viewDetails": "View Details"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "© 2023 NOOD. All rights reserved."
+  },
+  "courseDetail": {
+    "courseDescription": "Course Description",
+    "courseDetails": "Course Details",
+    "courseType": "Course Type",
+    "domain": "Domain",
+    "startDate": "Start Date",
+    "duration": "Duration",
+    "weeks": "weeks",
+    "price": "Price",
+    "courseObjectives": "Course Objectives",
+    "courseObjectivesDescription": "By the end of this course, you will be able to...",
+    "applyNow": "Apply Now",
+    "courseNotFound": "Course not found"
+  }
+}
