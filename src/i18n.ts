@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
+import englishTranslations from './locales/en'; // Import static English translations
 
 i18n
   .use(Backend)
@@ -13,28 +14,14 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-    backend: {
-      loadPath: '/locales/{{lng}}.json',
+    resources: {
+      en: {
+        translation: englishTranslations // Use static English translations
+      }
     },
-    ns: ['translation'],
-    defaultNS: 'translation',
+    backend: {
+      loadPath: '/locales/{{lng}}.json', // Path for other language JSON files
+    }
   });
-
-i18n.on('initialized', (options) => {
-  console.log('i18next initialized:', options);
-});
-
-i18n.on('loaded', (loaded) => {
-  console.log('i18next loaded:', loaded);
-});
-
-i18n.on('failedLoading', (lng, ns, msg) => {
-  console.error('i18next failed loading:', lng, ns, msg);
-});
-
-i18n.on('languageChanged', (lng) => {
-  console.log(`Language changed to: ${lng}`);
-  console.log('Current translations:', i18n.getResourceBundle(lng, 'translation'));
-});
 
 export default i18n;

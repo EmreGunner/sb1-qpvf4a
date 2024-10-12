@@ -6,11 +6,17 @@ const LanguageSelector: React.FC = () => {
   const { t } = useTranslation();
 
   const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng).then(() => {
+    if (lng === 'en') {
+      i18n.changeLanguage(lng);
       document.documentElement.lang = lng;
-      document.documentElement.dir = lng === 'ar' ? 'rtl' : 'ltr';
-      window.location.reload(); // Force reload to ensure all components update
-    });
+      document.documentElement.dir = 'ltr';
+    } else {
+      i18n.changeLanguage(lng).then(() => {
+        document.documentElement.lang = lng;
+        document.documentElement.dir = lng === 'ar' ? 'rtl' : 'ltr';
+        window.location.reload(); // Force reload for non-English languages
+      });
+    }
   };
 
   return (
